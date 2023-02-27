@@ -29,5 +29,27 @@ namespace Api.Controllers
             if (user == null) return NotFound("Usuario nao encontrado");
             return Ok(user);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] UserDto userDto)
+        {
+            await _userService.Create(userDto);
+            return new CreatedAtRouteResult("GetUser", new { id = userDto.Id }, userDto);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Put(int id, [FromBody] UserDto userDto)
+        {
+            await _userService.Update(id, userDto);
+            return Ok(userDto);
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult<UserDto>> Delete(int id)
+        {
+            var userDto = await _userService.GetById(id);
+            await _userService.Delete(id);
+            return Ok(userDto);
+        }
     }
 }

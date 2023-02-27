@@ -3481,11 +3481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\edata\\Cross\\Cross.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\edata\\api\\Cross\\Cross.csproj",
       "projectName": "Cross",
-      "projectPath": "C:\\Users\\User\\Desktop\\edata\\Cross\\Cross.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\edata\\api\\Cross\\Cross.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\edata\\Cross\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\edata\\api\\Cross\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3502,11 +3502,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\edata\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\edata\\Application\\Application.csproj"
+            "C:\\Users\\User\\Desktop\\edata\\api\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\edata\\api\\Application\\Application.csproj"
             },
-            "C:\\Users\\User\\Desktop\\edata\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\edata\\Persistence\\Persistence.csproj"
+            "C:\\Users\\User\\Desktop\\edata\\api\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\edata\\api\\Persistence\\Persistence.csproj"
             }
           }
         }

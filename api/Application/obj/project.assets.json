@@ -244,11 +244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\edata\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\edata\\api\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\User\\Desktop\\edata\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\edata\\api\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\edata\\Application\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\edata\\api\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -265,8 +265,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\edata\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\edata\\Domain\\Domain.csproj"
+            "C:\\Users\\User\\Desktop\\edata\\api\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\edata\\api\\Domain\\Domain.csproj"
             }
           }
         }
