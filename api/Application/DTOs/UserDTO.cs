@@ -4,6 +4,7 @@ namespace Application.DTOs
 {
     public class UserDto
     {
+        [Key]
         public int Id { get; set; }
 
         [Required]

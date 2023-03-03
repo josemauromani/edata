@@ -1,4 +1,4 @@
-# web
+# project-tracker
 
 ## Project setup
 ```

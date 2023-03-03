@@ -44,7 +44,7 @@ namespace Api.Controllers
             return Ok(userDto);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<ActionResult<UserDto>> Delete(int id)
         {
             var userDto = await _userService.GetById(id);

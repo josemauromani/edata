@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gcyp0W/VuY5CGakxf0U+IM7s4TWar0SeNi3v91Lcw8d0+Q+40lqQc7G0qvSF9u5cbO86Jj9jY3DvE22fPm1rTw==",
+  "dgSpecHash": "noEHlea0i//bsAz2E3m/umxnf2jYgZPyVLSdbITmjQM7PC81XGo4xv7Gqx7prqege6O6o2J+dQAjSAjJ1eH90w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\edata\\api\\Application\\Application.csproj",
+  "projectFilePath": "/Users/josemauromoraismani/Documents/projects/edata/api/Application/Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "/Users/josemauromoraismani/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/josemauromoraismani/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
+    "/Users/josemauromoraismani/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/josemauromoraismani/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/josemauromoraismani/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

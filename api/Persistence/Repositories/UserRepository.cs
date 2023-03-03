@@ -33,13 +33,14 @@ namespace Persistence.Repositories
 
         public async Task<User> Update(User user)
         {
-            _context.Update(user);
+            _context.Users.Update(user);
             await _context.SaveChangesAsync();
             return user;
         }
+
         public async Task<User> Delete(User user)
         {
-            _context.Remove(user);
+            _context.Users.Remove(user);
             await _context.SaveChangesAsync();
             return user;
         }

@@ -26,6 +26,7 @@ namespace Application.CQRS.Commands
             public async Task<User> Handle(UpdateUserCommand request, CancellationToken cancellationToken)
             {
                 var user = await _userRepository.GetById(request.Id) ?? throw new ArgumentException($"Usuario nao encontrado");
+                user.Update(request.Nome, request.Sobrenome, request.Cpf, request.DataNascimento);
                 return await _userRepository.Update(user);
             }
         }

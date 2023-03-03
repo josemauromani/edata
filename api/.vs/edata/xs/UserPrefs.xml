@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{EB4A5367-A1C1-427B-B15A-CDD21A9CA6D8}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Application/CQRS/Commands/UpdateUserCommand.cs">
+    <Files>
+      <File FileName="Application/CQRS/Commands/UpdateUserCommand.cs" Line="35" Column="1" />
+      <File FileName="Domain/Interfaces/IUserRepository.cs" Line="5" Column="22" />
+      <File FileName="Persistence/Repositories/UserRepository.cs" Line="37" Column="47" />
+      <File FileName="Persistence/Context/ApplicationDbContext.cs" Line="6" Column="38" />
+      <File FileName="Domain/Entities/User.cs" Line="12" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="edata" expanded="True">
+            <Node name="NuGet.Config files" expanded="True" />
+            <Node name="Core" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="CQRS" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="UpdateUserCommand.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="DTOs" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Mappings" expanded="True" />
+              </Node>
+              <Node name="Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infra" expanded="True">
+              <Node name="Cross" expanded="True" />
+              <Node name="Persistence" expanded="True">
+                <Node name="Context" expanded="True" />
+                <Node name="EntitiesConfig" expanded="True" />
+                <Node name="Migrations" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="Api" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Presentation.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

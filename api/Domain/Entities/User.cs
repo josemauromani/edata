@@ -5,19 +5,23 @@
         public string Nome { get; private set; }
         public string Sobrenome { get; private set; }
         public string Cpf { get; private set; }
-        public DateTime DataNascimento { get; private set; }
-        public string DataNascimento1 { get; }
-
-        public User(string nome, string sobrenome, string cpf, DateTime dataNascimento)
-        {
-        }
+        public string DataNascimento { get; private set; }
 
         public User(string nome, string sobrenome, string cpf, string dataNascimento)
         {
             Nome = nome;
             Sobrenome = sobrenome;
             Cpf = cpf;
-            DataNascimento1 = dataNascimento;
+            DataNascimento = dataNascimento;
+        }
+
+
+        public void Update(string nome, string sobrenome, string cpf, string dataNascimento)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+            Cpf = cpf;
+            DataNascimento = dataNascimento;
         }
     }
 }

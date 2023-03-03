@@ -44,6 +44,7 @@ namespace Application.Services
 
         public async Task Update(int userId, UserDto userDto, CancellationToken cancellationToken = default)
         {
+            userDto.Id = userId;
             var updateUserCommand = _mapper.Map<UpdateUserCommand>(userDto);
             await _mediator.Send(updateUserCommand, cancellationToken);
         }
